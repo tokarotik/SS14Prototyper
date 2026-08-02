@@ -11,8 +11,8 @@ Python project for reading/editing SS14 prototypes, textures and audio.
 
 
 ## Prepare to work
-0. Change directory to the project's root folder
-1. To initiate virtual environment run `gen_env`
-2. Activate virtual enviroment `activate`
-2. Then download requirement packages `inst_pckgs`
+0. Change directory to the project's root folder(youre SS14 server)
+1. Initiate the virtual environment run `gen_env`
+2. Activate the virtual enviroment `activate`
+2. Then download the required packages `inst_pckgs`
 3. You're done

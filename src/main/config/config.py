@@ -18,9 +18,9 @@ class Config:
 
 
 		if not os.path.isdir(self.PATH_PROJECT):
-			raise FileExistsError(f'doesn\'t exists \'{self.PATH_PROJECT}\'')
+			raise FileExistsError(f'folder \'{self.PATH_PROJECT}\' doesn\'t exists')
 		
 		if not os.path.isdir(self.PATH_WORKING):
-			raise FileExistsError(f'doesn\'t exists \'{self.PATH_WORKING}\'')
+			raise FileExistsError(f'folder \'{self.PATH_WORKING}\' doesn\'t exists')
 		
 

@@ -18,7 +18,7 @@ def main(args: Namespace) -> int:
 		return 0
 	
 	except:
-		if args.debug: traceback.print_stack()
+		if args.debug: traceback.print_exc()
 		return 1
 
 if __name__ == "__main__":
