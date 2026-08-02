@@ -1,0 +1,1 @@
+Python project for reading/editing SS14 prototypes, textures and audio.
