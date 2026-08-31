@@ -1,2 +1,5 @@
-test.bat
+/venv
+/.venv
+/test.bat
+
 __pycache__
