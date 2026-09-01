@@ -1,7 +1,8 @@
 import os
 from pathlib import Path
 
-def get_folders_and_files(path: Path, only_folders: bool = False, only_files: bool = False) -> tuple[list[Path], list[Path]] | list[Path]:
+def get_folders_and_files(path: str | Path, only_folders: bool = False, only_files: bool = False) -> tuple[list[Path], list[Path]] | list[Path]:
+	path = Path(path)
 	files: list[Path] = []
 	folders: list[Path] = []
 
@@ -19,4 +20,8 @@ def get_folders_and_files(path: Path, only_folders: bool = False, only_files: bo
 	return folders,files
 
 def get_rsi(path: Path | None = None, folders: list[Path] | None = None) -> list[Path]:
-	
+	pass
+
+
+if __name__ == '__main__':
+	print(get_folders_and_files('D:/Projects/C', only_folders=True))
